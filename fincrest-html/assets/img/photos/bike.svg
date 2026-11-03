@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 525" role="img" aria-label="Illustration of a motorcycle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b4a28"/><stop offset="1" stop-color="#052a17"/></linearGradient>
+  </defs>
+  <rect width="700" height="525" fill="url(#bg)"/>
+  <g fill="none" stroke="#d59f29" stroke-opacity=".22" stroke-width="1.5">
+    <circle cx="350" cy="262" r="120"/><circle cx="350" cy="262" r="190"/><circle cx="350" cy="262" r="260"/>
+  </g>
+  <path d="M60 400h580" stroke="#d59f29" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+  <g fill="none" stroke="#f8f7f1" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="190" cy="335" r="62"/>
+    <circle cx="510" cy="335" r="62"/>
+    <circle cx="190" cy="335" r="14" stroke="#d59f29"/>
+    <circle cx="510" cy="335" r="14" stroke="#d59f29"/>
+    <path d="M510 335L470 235 440 195"/>
+    <path d="M440 195l-26-24 38-6"/>
+    <path d="M190 335l62-75h110l50 75"/>
+    <path d="M300 300l-48-40"/>
+  </g>
+  <g fill="#d59f29" stroke="#d59f29" stroke-width="6" stroke-linejoin="round">
+    <path d="M300 205c28-34 88-38 130-8l-18 52H298z"/>
+  </g>
+  <path d="M232 238c30-22 70-22 76-8l-6 24h-72z" fill="#f8f7f1" stroke="#f8f7f1" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M300 300h82l-8 40h-56z" fill="#f8f7f1" opacity=".9"/>
+  <ellipse cx="350" cy="410" rx="230" ry="10" fill="#000" opacity=".18"/>
+</svg>
