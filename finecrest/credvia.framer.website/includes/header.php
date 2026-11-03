@@ -50,6 +50,12 @@ function cur(string $name): string
 <link rel="stylesheet" href="<?= e(asset('css/layout.css')) ?>">
 <link rel="stylesheet" href="<?= e(asset('css/components.css')) ?>">
 <link rel="stylesheet" href="<?= e(asset('css/pages.css')) ?>">
+<?php foreach ($styles ?? [] as $st): ?>
+<link rel="stylesheet" href="<?= e(asset('css/' . $st . '.css')) ?>">
+<?php endforeach; ?>
+<?php if (!empty($preload)): ?>
+<link rel="preload" as="image" href="<?= e(asset('img/' . $preload)) ?>" fetchpriority="high">
+<?php endif; ?>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>

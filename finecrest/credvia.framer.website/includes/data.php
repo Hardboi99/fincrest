@@ -31,6 +31,13 @@ function icon(string $name): string
         'check'    => '<circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/>',
         'chat'     => '<path d="M4 5h16v11H9l-5 4z"/>',
         'pin'      => '<path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+        'layers'   => '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>',
+        'route'    => '<circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18H15a3 3 0 000-6H9a3 3 0 010-6h6.5"/>',
+        'eye'      => '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+        'compass'  => '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>',
+        'edit'     => '<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/>',
+        'search'   => '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>',
+        'link'     => '<path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/>',
         'arrow'    => '<path d="M5 12h14M13 6l6 6-6 6"/>',
         'chev'     => '<path d="M6 9l6 6 6-6"/>',
         'left'     => '<path d="M15 6l-6 6 6 6"/>',
@@ -59,7 +66,7 @@ $LOANS = [
         'desc'  => 'Make your next vehicle purchase easier.',
     ],
     'bike-loan' => [
-        'title' => 'Bike Loan', 'group' => 'Secured Loans', 'icon' => 'bike', 'img' => 'bike.jpg',
+        'title' => 'Bike Loan', 'group' => 'Secured Loans', 'icon' => 'bike', 'img' => 'bike.svg',
         'desc'  => 'Ride home your two-wheeler with simple financing.',
     ],
     'gold-loan' => [

@@ -11,7 +11,8 @@ Plain PHP + HTML + CSS + vanilla JS. Needs Apache with PHP (XAMPP is fine). Open
 | Text of each loan page (intro, features, eligibility, documents, FAQs, EMI ranges) | `includes/loan-content.php` |
 | Header / mega menu / mobile menu | `includes/header.php` |
 | Footer and the green call-to-action band | `includes/footer.php` |
-| Home page sections and hero slides | `index.php` |
+| Home page sections, copy and calculator categories | `index.php` |
+| Home page styling / behaviour (home only) | `assets/css/home-premium.css`, `assets/js/home-premium.js` |
 | About, DSA, Contact, Calculator, Resources pages | `about.php`, `dsa.php`, `contact.php`, `calculators.php`, `resources.php` |
 | Colours, fonts, spacing | `assets/css/base.css` (`:root` tokens) |
 | Header, menu, footer styling | `assets/css/layout.css` |

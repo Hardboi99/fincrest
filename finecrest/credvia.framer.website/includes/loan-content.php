@@ -89,7 +89,7 @@ return [
     'bike-loan' => [
         'h1'    => 'Ride home your <em>dream bike.</em>',
         'lead'  => 'Simple financing support for your two-wheeler purchase. Share your requirement and explore suitable options.',
-        'img'   => 'bike.jpg',
+        'img'   => 'bike.svg',
         'intro' => [
             'A bike loan helps you spread the cost of a two-wheeler over regular monthly instalments instead of paying the full price upfront.',
             'Fincrest 360 helps you understand your options and move ahead with the relevant lending institution.',
